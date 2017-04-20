@@ -3,23 +3,26 @@ include_once("top.php");
 ?>
 <table width="870" height="250" border="1" align="center" cellpadding="1" cellspacing="1" bordercolor="#FFFFFF" bgcolor="#6EBEC7">
   <tr>
-    <td bgcolor="#FFFFFF" valign="top"><table width="825" height="10" border="0" align="center" cellpadding="0" cellspacing="0">
-      <tr>
-        <td></td>
-      </tr>
-    </table>
-<table width="750" height="20" border="0" align="center" cellpadding="0" cellspacing="0" background="images/lt_15(2).jpg">
-<tr><td height="2"></td></tr>
-          <tr>
-            <td width="740" class="a9"><div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户注册&nbsp;版块</div></td>
-            <td width="160"></td>
-          </tr>
-</table>
-<table width="750" height="170" border="0" align="center" cellpadding="0" cellspacing="0">
-                      <tr>
-                        <td><br />
-                            <div align="center">
-                              <textarea name="textarea" cols="75" rows="13" class="inputcss">一、版权声明
+    <td bgcolor="#FFFFFF" valign="top">
+        <table width="825" height="10" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+        <table width="750" height="20" border="0" align="center" cellpadding="0" cellspacing="0" background="images/lt_15(2).jpg">
+            <tr>
+                <td height="2"></td>
+            </tr>
+            <tr>
+                <td width="740" class="a9"><div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户注册&nbsp;版块</div></td>
+                <td width="160"></td>
+            </tr>
+        </table>
+        <table width="750" height="170" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td><br />
+                    <div align="center">
+                        <textarea name="textarea" cols="75" rows="13" class="inputcss">一、版权声明
 
     BCTY365网上社区各项服务的所有权和运作权归吉林省明日科技有限公司所有。
 
@@ -170,7 +173,8 @@ include_once("top.php");
                             <td width="81" height="30"><div align="center">用&nbsp;户&nbsp;名：</div></td>
                             <td width="184">&nbsp;
                                 <input type="text" name="usernc" size="25" class="inputcss" maxlength="100" /></td>
-                            <td width="85"><input name="button" type="button"  onclick="open_chknc(from_reg.usernc.value)" value="查看可用性" /></td>
+                            <td width="85">
+                                <input name="button" type="button"  onclick="open_chknc(from_reg.usernc.value)" value="查看可用性" /></td>
                           </tr>
                           <tr>
                             <td height="30"><div align="center">登录密码：</div></td>

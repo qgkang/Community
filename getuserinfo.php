@@ -242,18 +242,18 @@ include_once("top.php");
                                   </tr>
                                   <tr>
                                     <td height="30"><div align="center">Ð§ÑéÂë£º</div></td>
-                                    <td height="30" colspan="2"><table width="400" height="30" border="0" align="left" cellpadding="0" cellspacing="0">
+                                    <td height="30" colspan="2">
+                                        <table width="400" height="30" border="0" align="left" cellpadding="0" cellspacing="0">
                                         <tr>
                                           <td width="162">&nbsp;
                                             <input type="text" name="xym" size="20" class="inputcss" /></td>
-                                          <td width="238"><?php
-							   $num=intval(mt_rand(1000,9999));
+                                          <td width="238"><?php $num=intval(mt_rand(1000,9999));
 							   
-							   for($i=0;$i<4;$i++)
-							   {
-							    echo "<img src=images/code/".substr(strval($num),$i,1).".gif>";
-							   }
-							?></td>
+                                           for($i=0;$i<4;$i++)
+                                           {
+                                            echo "<img src=images/code/".substr(strval($num),$i,1).".gif>";
+                                           } ?>
+                                          </td>
                                         </tr>
                                     </table></td>
                                   </tr>
