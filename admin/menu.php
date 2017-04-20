@@ -25,6 +25,7 @@
 <table name="tz1" id="tz1" width="170" height="40" border="0" align="center" cellpadding="0" cellspacing="0"
   <?php
   if(isset($_GET['htgl'])){
+    //À¸Ä¿ÊÕËõ
   	if($_GET['htgl']!="Ìí¼Ó±à³Ì´Êµä°æ±¾" || $_GET['htgl']!="±à¼­±à³Ì´Êµä°æ±¾" ||$_GET['htgl']!="Ìí¼Ó±à³Ì´Êµä" ||$_GET['htgl']!="±à¼­±à³Ì´Êµä" ){
 ?>
 			  style="display:none"
